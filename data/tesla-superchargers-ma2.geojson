@@ -1,0 +1,1375 @@
+{
+  "type": "FeatureCollection",
+  "name": "tesla-superchargers-ma2",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Channel Center Garage",
+        "Street Address": "116 W First St",
+        "City": "Boston",
+        "State": "MA",
+        "ZIP": 2127,
+        "Latitude": 42.342653,
+        "Longitude": -71.05163,
+        "Country": "US",
+        "EV Pricing": "$23 early bird (before 9am), $30 after, regardless of charging time. Pay at garage office."
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.05163, 42.342653] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Auburn Mall - Tesla Supercharger",
+        "Street Address": "385 Southbridge St.",
+        "City": "Auburn",
+        "State": "MA",
+        "ZIP": 1501,
+        "Latitude": 42.203734,
+        "Longitude": -71.833059,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.833059, 42.203734] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "South Bay Town Center - Tesla Supercharger",
+        "Street Address": "101 Allstate Road",
+        "City": "Boston",
+        "State": "MA",
+        "ZIP": 2125,
+        "Latitude": 42.3255,
+        "Longitude": -71.0633,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.0633, 42.3255] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "The Prudential Center - Tesla Supercharger",
+        "Street Address": "800 Boylston Street",
+        "City": "Boston",
+        "State": "MA",
+        "ZIP": 2199,
+        "Latitude": 42.34717,
+        "Longitude": -71.081003,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.081003, 42.34717] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Cambridge, MA - Tesla Supercharger",
+        "Street Address": "100 Cambridgeside Place",
+        "City": "Cambridge",
+        "State": "MA",
+        "ZIP": 2141,
+        "Latitude": 42.3685,
+        "Longitude": -71.0762,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.0762, 42.3685] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Tesla Service Center Dedham - Tesla Supercharger",
+        "Street Address": "840 Providence Highway",
+        "City": "Dedham",
+        "State": "MA",
+        "ZIP": 2026,
+        "Latitude": 42.236461,
+        "Longitude": -71.178325,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.178325, 42.236461] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Shopper's World - Tesla Supercharger",
+        "Street Address": "1 Worcester Rd",
+        "City": "Framingham",
+        "State": "MA",
+        "ZIP": 1701,
+        "Latitude": 42.303647,
+        "Longitude": -71.394175,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.394175, 42.303647] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Pride Store - Tesla Supercharger",
+        "Street Address": "25 Russell Street",
+        "City": "Hadley",
+        "State": "MA",
+        "ZIP": 1035,
+        "Latitude": 42.338748,
+        "Longitude": -72.609253,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-72.609253, 42.338748] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Big Y Supermarket - Tesla Supercharger",
+        "Street Address": "10 Pleasant St.",
+        "City": "Lee",
+        "State": "MA",
+        "ZIP": 1238,
+        "Latitude": 42.295745,
+        "Longitude": -73.239226,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.239226, 42.295745] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "The Mall at Whitney Field - Tesla Supercharger",
+        "Street Address": "100 Commercial Road",
+        "City": "Leominster",
+        "State": "MA",
+        "ZIP": 1453,
+        "Latitude": 42.529592,
+        "Longitude": -71.744201,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.744201, 42.529592] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Mansfield Crossing - Tesla Supercharger",
+        "Street Address": "280 School Street",
+        "City": "Mansfield",
+        "State": "MA",
+        "ZIP": 2048,
+        "Latitude": 42.013724,
+        "Longitude": -71.23175,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.23175, 42.013724] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Dunkin' Donuts - Tesla Supercharger",
+        "Street Address": "22 Meetinghouse Lane",
+        "City": "Sagamore Beach",
+        "State": "MA",
+        "ZIP": 2562,
+        "Latitude": 41.781195,
+        "Longitude": -70.540289,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.540289, 41.781195] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Riverdale Shops - Tesla Supercharger",
+        "Street Address": "935 Riverdale Street",
+        "City": "West Springfield",
+        "State": "MA",
+        "ZIP": 1089,
+        "Latitude": 42.130914,
+        "Longitude": -72.621435,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-72.621435, 42.130914] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Swissbakers Inc. - Tesla Destination",
+        "Street Address": "168 Western Ave",
+        "City": "Allston",
+        "State": "MA",
+        "ZIP": 2134,
+        "Latitude": 42.36293,
+        "Longitude": -71.128439,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.128439, 42.36293] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Hampton Inn Amesbury - Tesla Destination",
+        "Street Address": "284  Elm St",
+        "City": "Amesbury",
+        "State": "MA",
+        "ZIP": 1913,
+        "Latitude": 42.847566,
+        "Longitude": -70.90827,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.90827, 42.847566] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Doubletree by Hilton Cape Cod - Hyannis - Tesla Destination",
+        "Street Address": "287 Iyannough Rd",
+        "City": "Barnstable",
+        "State": "MA",
+        "ZIP": 2601,
+        "Latitude": 41.661139,
+        "Longitude": -70.2803,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.2803, 41.661139] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "The Westin Copley Place - Tesla Destination",
+        "Street Address": "10 Huntington Ave",
+        "City": "Boston",
+        "State": "MA",
+        "ZIP": 2116,
+        "Latitude": 42.348567,
+        "Longitude": -71.077311,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.077311, 42.348567] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "W Boston Hotel Hotel & Residences - Tesla Destination",
+        "Street Address": "100 Stuart St",
+        "City": "Boston",
+        "State": "MA",
+        "ZIP": 2116,
+        "Latitude": 42.350937,
+        "Longitude": -71.065558,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.065558, 42.350937] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Four Seasons Hotel Boston - Tesla Destination",
+        "Street Address": "200 Boylston St",
+        "City": "Boston",
+        "State": "MA",
+        "ZIP": 2116,
+        "Latitude": 42.352269,
+        "Longitude": -71.068005,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.068005, 42.352269] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "DoubleTree Club by Hilton Boston-Bayside - Tesla Destination",
+        "Street Address": "240 Mount Vernon St",
+        "City": "Boston",
+        "State": "MA",
+        "ZIP": 2125,
+        "Latitude": 42.319148,
+        "Longitude": -71.045934,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.045934, 42.319148] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Millennium Bostonian Hotel - Tesla Destination",
+        "Street Address": "26 North St",
+        "City": "Boston",
+        "State": "MA",
+        "ZIP": 2109,
+        "Latitude": 42.360797,
+        "Longitude": -71.056261,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.056261, 42.360797] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Sheraton Boston Hotel - Tesla Destination",
+        "Street Address": "39 Dalton St",
+        "City": "Boston",
+        "State": "MA",
+        "ZIP": 2199,
+        "Latitude": 42.346202,
+        "Longitude": -71.084527,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.084527, 42.346202] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "The Lenox Hotel - Tesla Destination",
+        "Street Address": "61 Exeter St",
+        "City": "Boston",
+        "State": "MA",
+        "ZIP": 2116,
+        "Latitude": 42.349229,
+        "Longitude": -71.079528,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.079528, 42.349229] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Mandarin Oriental, Boston - Tesla Destination",
+        "Street Address": "776 Boylston St",
+        "City": "Boston",
+        "State": "MA",
+        "ZIP": 2199,
+        "Latitude": 42.348687,
+        "Longitude": -71.081645,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.081645, 42.348687] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "DoubleTree by Hilton Boston - Downtown - Tesla Destination",
+        "Street Address": "821 Washington St",
+        "City": "Boston",
+        "State": "MA",
+        "ZIP": 2111,
+        "Latitude": 42.348863,
+        "Longitude": -71.064781,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.064781, 42.348863] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Kimpton Nine Zero Hotel - Tesla Destination",
+        "Street Address": "90 Tremont St",
+        "City": "Boston",
+        "State": "MA",
+        "ZIP": 2108,
+        "Latitude": 42.357362,
+        "Longitude": -71.060688,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.060688, 42.357362] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Captain Freeman Inn - Tesla Destination",
+        "Street Address": "15 Breakwater Rd",
+        "City": "Brewster",
+        "State": "MA",
+        "ZIP": 2631,
+        "Latitude": 41.761856,
+        "Longitude": -70.083124,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.083124, 41.761856] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Residence Inn by Marriott - Tesla Destination",
+        "Street Address": "500 Memorial Dr",
+        "City": "Chicopee",
+        "State": "MA",
+        "ZIP": 1020,
+        "Latitude": 42.172273,
+        "Longitude": -72.579497,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-72.579497, 42.172273] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Rectrix Aviation - Tesla Destination",
+        "Street Address": "777  Virginia Rd",
+        "City": "Concord",
+        "State": "MA",
+        "ZIP": 1742,
+        "Latitude": 42.464494,
+        "Longitude": -71.299243,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.299243, 42.464494] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "The Harbor View Hotel - Tesla Destination",
+        "Street Address": "131 N Water St",
+        "City": "Edgartown",
+        "State": "MA",
+        "ZIP": 2539,
+        "Latitude": 41.393032,
+        "Longitude": -70.506935,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.506935, 41.393032] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "The Golf Club of Cape Cod - Tesla Destination",
+        "Street Address": "132 Falmouth Rd",
+        "City": "Falmouth",
+        "State": "MA",
+        "ZIP": 2536,
+        "Latitude": 41.631265,
+        "Longitude": -70.594347,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.594347, 41.631265] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "The Palmer House Inn, a Select Registry Property - Tesla Destination",
+        "Street Address": "81 Palmer Ave",
+        "City": "Falmouth",
+        "State": "MA",
+        "ZIP": 2540,
+        "Latitude": 41.555519,
+        "Longitude": -70.62019,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.62019, 41.555519] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Jiminy Peak Mountain Resort - Tesla Destination",
+        "Street Address": "37 Corey Rd",
+        "City": "Hancock",
+        "State": "MA",
+        "ZIP": 1237,
+        "Latitude": 42.55585,
+        "Longitude": -73.290972,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.290972, 42.55585] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Wequassett Resort and Golf Club - Tesla Destination",
+        "Street Address": "2173 MA-28",
+        "City": "Harwich",
+        "State": "MA",
+        "ZIP": 2645,
+        "Latitude": 41.722628,
+        "Longitude": -69.996093,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-69.996093, 41.722628] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Applegate Inn, a Select Registry Property - Tesla Destination",
+        "Street Address": "279 W Park St",
+        "City": "Lee",
+        "State": "MA",
+        "ZIP": 1238,
+        "Latitude": 42.301083,
+        "Longitude": -73.258542,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.258542, 42.301083] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "The Inn at Stockbridge, a Select Registry Property - Tesla Destination",
+        "Street Address": "30  East St",
+        "City": "Lee",
+        "State": "MA",
+        "ZIP": 1238,
+        "Latitude": 42.304763,
+        "Longitude": -73.221919,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.221919, 42.304763] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Devonfield Inn, a Select Registry Property - Tesla Destination",
+        "Street Address": "85 Stockbridge Rd",
+        "City": "Lee",
+        "State": "MA",
+        "ZIP": 1238,
+        "Latitude": 42.30095,
+        "Longitude": -73.263943,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.263943, 42.30095] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Brook Farm Inn, a Select Registry Property - Tesla Destination",
+        "Street Address": "15 Hawthorne St",
+        "City": "Lenox",
+        "State": "MA",
+        "ZIP": 1240,
+        "Latitude": 42.352589,
+        "Longitude": -73.288518,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.288518, 42.352589] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Gateways Inn, a Select Registry Property - Tesla Destination",
+        "Street Address": "51 Walker St",
+        "City": "Lenox",
+        "State": "MA",
+        "ZIP": 1240,
+        "Latitude": 42.355928,
+        "Longitude": -73.282592,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.282592, 42.355928] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Cranwell Resort, Spa & Golf Club - Tesla Destination",
+        "Street Address": "55  Lee Rd",
+        "City": "Lenox",
+        "State": "MA",
+        "ZIP": 1240,
+        "Latitude": 42.340328,
+        "Longitude": -73.268624,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.268624, 42.340328] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Blantyre - Tesla Destination",
+        "Street Address": "6 Blantyre Rd",
+        "City": "Lenox",
+        "State": "MA",
+        "ZIP": 1240,
+        "Latitude": 42.339036,
+        "Longitude": -73.256307,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.256307, 42.339036] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Birchwood Inn, a Select Registry Property - Tesla Destination",
+        "Street Address": "7 Hubbard St",
+        "City": "Lenox",
+        "State": "MA",
+        "ZIP": 1240,
+        "Latitude": 42.363027,
+        "Longitude": -73.281626,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.281626, 42.363027] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Hampton Terrace Inn - Tesla Destination",
+        "Street Address": "91 Walker St",
+        "City": "Lenox",
+        "State": "MA",
+        "ZIP": 1240,
+        "Latitude": 42.355164,
+        "Longitude": -73.280905,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.280905, 42.355164] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Harbor Light Inn, a Select Registry Property - Tesla Destination",
+        "Street Address": "58 Washington St",
+        "City": "Marblehead",
+        "State": "MA",
+        "ZIP": 1945,
+        "Latitude": 42.506063,
+        "Longitude": -70.848242,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.848242, 42.506063] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Mashpee Commons - Tesla Destination",
+        "Street Address": "22 Steeple St",
+        "City": "Mashpee",
+        "State": "MA",
+        "ZIP": 2649,
+        "Latitude": 41.616861,
+        "Longitude": -70.491357,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.491357, 41.616861] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "The Westmoor Club - Tesla Destination",
+        "Street Address": "10  Westmoor Ln",
+        "City": "Nantucket",
+        "State": "MA",
+        "ZIP": 2554,
+        "Latitude": 41.289226,
+        "Longitude": -70.117217,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.117217, 41.289226] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Great Harbor Yacht Club - Tesla Destination",
+        "Street Address": "96 Washington St",
+        "City": "Nantucket",
+        "State": "MA",
+        "ZIP": 2554,
+        "Latitude": 41.279088,
+        "Longitude": -70.092471,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.092471, 41.279088] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Hampton Inn Boston/Peabody - Tesla Destination",
+        "Street Address": "59 Newbury St",
+        "City": "Peabody",
+        "State": "MA",
+        "ZIP": 1960,
+        "Latitude": 42.556176,
+        "Longitude": -70.983555,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.983555, 42.556176] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Mirbeau Inn & Spa at the Pinehills - Tesla Destination",
+        "Street Address": "35 Landmark Drive",
+        "City": "Plymouth",
+        "State": "MA",
+        "ZIP": 2360,
+        "Latitude": 41.881215,
+        "Longitude": -70.598159,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.598159, 41.881215] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Sage Inn & Lounge - Tesla Destination",
+        "Street Address": "336 Commercial St",
+        "City": "Provincetown",
+        "State": "MA",
+        "ZIP": 2494,
+        "Latitude": 42.053058,
+        "Longitude": -70.185219,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.185219, 42.053058] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Isaiah Jones Homestead Bed & Breakfast - Tesla Destination",
+        "Street Address": "165  Main Street",
+        "City": "Sandwich",
+        "State": "MA",
+        "ZIP": 2563,
+        "Latitude": 41.757366,
+        "Longitude": -70.495067,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.495067, 41.757366] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "The Orchards Hotel - Tesla Destination",
+        "Street Address": "222  Adams Rd",
+        "City": "Williamstown",
+        "State": "MA",
+        "ZIP": 1267,
+        "Latitude": 42.705408,
+        "Longitude": -73.191089,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.191089, 42.705408] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Mashpee Commons - Tesla Supercharger",
+        "Street Address": "22 Steeple Street",
+        "City": "Mashpee",
+        "State": "MA",
+        "ZIP": 2649,
+        "Latitude": 41.617554,
+        "Longitude": -70.488139,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.488139, 41.617554] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "The Shops at Highland Commons - Tesla Supercharger",
+        "Street Address": "2 Highland Common East",
+        "City": "Hudson",
+        "State": "MA",
+        "ZIP": 1749,
+        "Latitude": 42.395459,
+        "Longitude": -71.595021,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.595021, 42.395459] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "PB Boulangerie Bistro - Tesla Destination",
+        "Street Address": "15 Lecount Hollow Rd",
+        "City": "Wellfleet",
+        "State": "MA",
+        "ZIP": 2663,
+        "Latitude": 41.916958,
+        "Longitude": -69.989771,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-69.989771, 41.916958] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Van Ness Garage - Tesla Supercharger",
+        "Street Address": "1341 Boylston Street",
+        "City": "Boston",
+        "State": "MA",
+        "ZIP": 2215,
+        "Latitude": 42.344903,
+        "Longitude": -71.09933,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.09933, 42.344903] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "South Shore Plaza - Tesla Supercharger",
+        "Street Address": "250 Granite Street",
+        "City": "Braintree",
+        "State": "MA",
+        "ZIP": 2184,
+        "Latitude": 42.223016,
+        "Longitude": -71.022012,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.022012, 42.223016] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Market Street - Lynnfield - Tesla Supercharger",
+        "Street Address": "600 Market St",
+        "City": "Lynnfield",
+        "State": "MA",
+        "ZIP": 1940,
+        "Latitude": 42.516588,
+        "Longitude": -71.032486,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.032486, 42.516588] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Dock Square Parking Garage - Tesla Destination",
+        "Street Address": "20 Clinton St",
+        "City": "Boston",
+        "State": "MA",
+        "ZIP": 2109,
+        "Latitude": 42.360953,
+        "Longitude": -71.054917,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.054917, 42.360953] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Tree House Brewing Company - Tesla Destination",
+        "Street Address": "129 Sturbridge Rd",
+        "City": "Charlton",
+        "State": "MA",
+        "ZIP": 1507,
+        "Latitude": 42.138891,
+        "Longitude": -72.01826,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-72.01826, 42.138891] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Trillium Brewing Company - Tesla Destination",
+        "Street Address": "50 Hudson Rd",
+        "City": "Canton",
+        "State": "MA",
+        "ZIP": 2021,
+        "Latitude": 42.182894,
+        "Longitude": -71.150799,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.150799, 42.182894] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Wareham Crossing - Tesla Supercharger",
+        "Street Address": "2421 Cranberry HIghway",
+        "City": "Wareham",
+        "State": "MA",
+        "ZIP": 2571,
+        "Latitude": 41.774457,
+        "Longitude": -70.744046,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.744046, 41.774457] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Cranberry Cove Plaza - Tesla Supercharger",
+        "Street Address": "2110 Cranberry Highway",
+        "City": "Orleans",
+        "State": "MA",
+        "ZIP": 2653,
+        "Latitude": 41.796653,
+        "Longitude": -69.985964,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-69.985964, 41.796653] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "The Street Chestnut Hill - Tesla Supercharger",
+        "Street Address": "55 Boylston Street",
+        "City": "Chestnut Hill",
+        "State": "MA",
+        "ZIP": 2467,
+        "Latitude": 42.321989,
+        "Longitude": -71.172424,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.172424, 42.321989] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "The Shops at Suffolk Downs - Tesla Supercharger",
+        "Street Address": "40 Furlong Drive",
+        "City": "Revere",
+        "State": "MA",
+        "ZIP": 2151,
+        "Latitude": 42.398457,
+        "Longitude": -71.000222,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.000222, 42.398457] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Stop & Shop - Tesla Supercharger",
+        "Street Address": "425 Attucks Lane",
+        "City": "Hyannis",
+        "State": "MA",
+        "ZIP": 2601,
+        "Latitude": 41.676617,
+        "Longitude": -70.307105,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.307105, 41.676617] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Big Y Class Market - Tesla Supercharger",
+        "Street Address": "700 Main Street Route 7",
+        "City": "Great Barrington",
+        "State": "MA",
+        "ZIP": 1230,
+        "Latitude": 42.180949,
+        "Longitude": -73.364744,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.364744, 42.180949] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "King Collision Centers - Tesla Destination",
+        "Street Address": "48 Holman Rd",
+        "City": "Plymouth",
+        "State": "MA",
+        "ZIP": 2360,
+        "Latitude": 41.92889,
+        "Longitude": -70.662043,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.662043, 41.92889] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Matouk Factory Store - Tesla Destination",
+        "Street Address": "925 Airport Rd",
+        "City": "Fall River",
+        "State": "MA",
+        "ZIP": 2720,
+        "Latitude": 41.746094,
+        "Longitude": -71.110908,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.110908, 41.746094] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Old Sandwich Golf Cub - Tesla Destination",
+        "Street Address": "41 Double Brook Rd",
+        "City": "Plymouth",
+        "State": "MA",
+        "ZIP": 2360,
+        "Latitude": 41.907364,
+        "Longitude": -70.604434,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.604434, 41.907364] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "The Captains Manor Inn - Tesla Destination",
+        "Street Address": "27 W Main Street",
+        "City": "Falmouth",
+        "State": "MA",
+        "ZIP": 2540,
+        "Latitude": 41.554313,
+        "Longitude": -70.620847,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.620847, 41.554313] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "The Ritz-Carlton, Boston - Tesla Destination",
+        "Street Address": "2 Avery St",
+        "City": "Boston",
+        "State": "MA",
+        "ZIP": 2111,
+        "Latitude": 42.353084,
+        "Longitude": -71.062843,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.062843, 42.353084] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "University of Massachusetts Medical School - Tesla Destination",
+        "Street Address": "55 N Lake Ave",
+        "City": "Worcester",
+        "State": "MA",
+        "ZIP": 1655,
+        "Latitude": 42.278255,
+        "Longitude": -71.759382,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.759382, 42.278255] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Williams Distributing Company - Tesla Destination",
+        "Street Address": "880 Burnett Road",
+        "City": "Chicopee",
+        "State": "MA",
+        "ZIP": 1020,
+        "Latitude": 42.176754,
+        "Longitude": -72.531569,
+        "Country": "US",
+        "EV Pricing": "Free"
+      },
+      "geometry": { "type": "Point", "coordinates": [-72.531569, 42.176754] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "The Point - Tesla Supercharger",
+        "Street Address": "812 Constitution Avenue",
+        "City": "Littleton",
+        "State": "MA",
+        "ZIP": 1460,
+        "Latitude": 42.553111,
+        "Longitude": -71.473878,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.473878, 42.553111] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Charlton Service Plaza Westbound - Tesla Supercharger",
+        "Street Address": "6 Massachusetts Turnpike",
+        "City": "Charlton",
+        "State": "MA",
+        "ZIP": 1507,
+        "Latitude": 42.156766,
+        "Longitude": -71.96292,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.96292, 42.156766] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Charlton Service Plaza Eastbound - Tesla Supercharger",
+        "Street Address": "Mile Marker 80 Eastbound Mass Turnpike",
+        "City": "Charlton",
+        "State": "MA",
+        "ZIP": 1507,
+        "Latitude": 42.139213,
+        "Longitude": -72.025739,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-72.025739, 42.139213] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Lexington Service Plaza Northbound - Tesla Supercharger",
+        "Street Address": "690 Marrett Road",
+        "City": "Lexington",
+        "State": "MA",
+        "ZIP": 2421,
+        "Latitude": 42.439688,
+        "Longitude": -71.257964,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.257964, 42.439688] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Target - Tesla Supercharger",
+        "Street Address": "1 Hawes Way",
+        "City": "Stoughton",
+        "State": "MA",
+        "ZIP": 2072,
+        "Latitude": 42.152891,
+        "Longitude": -71.073529,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.073529, 42.152891] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Target - Tesla Supercharger",
+        "Street Address": "101 Commerce Way",
+        "City": "Woburn",
+        "State": "MA",
+        "ZIP": 1801,
+        "Latitude": 42.518411,
+        "Longitude": -71.137207,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.137207, 42.518411] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Big Y World Class Market - Tesla Supercharger",
+        "Street Address": "650 Memorial Drive",
+        "City": "Chicopee",
+        "State": "MA",
+        "ZIP": 1020,
+        "Latitude": 42.174935,
+        "Longitude": -72.578197,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-72.578197, 42.174935] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Franklin Village Plaza - Tesla Supercharger",
+        "Street Address": "250 Franklin Village Drive",
+        "City": "Franklin",
+        "State": "MA",
+        "ZIP": 2038,
+        "Latitude": 42.090421,
+        "Longitude": -71.424898,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.424898, 42.090421] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Neon Marketplace - Tesla Supercharger",
+        "Street Address": "965 Fall River Avenue",
+        "City": "Seekonk",
+        "State": "MA",
+        "ZIP": 2771,
+        "Latitude": 41.79915,
+        "Longitude": -71.331034,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.331034, 41.79915] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Stop & Shop - Tesla Supercharger",
+        "Street Address": "779 McGrath Highway",
+        "City": "Somerville",
+        "State": "MA",
+        "ZIP": 2145,
+        "Latitude": 42.390584,
+        "Longitude": -71.086001,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.086001, 42.390584] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Dartmouth Towne Center Shopping Mall - Tesla Supercharger",
+        "Street Address": "83 Faunce Corner Mall Road",
+        "City": "Dartmouth",
+        "State": "MA",
+        "ZIP": 2747,
+        "Latitude": 41.640722,
+        "Longitude": -70.996,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.996, 41.640722] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Hanover Crossing - Tesla Supercharger",
+        "Street Address": "1775 Washington Street",
+        "City": "Hanover",
+        "State": "MA",
+        "ZIP": 2359,
+        "Latitude": 42.147722,
+        "Longitude": -70.841694,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.841694, 42.147722] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Burlington Mall - Tesla Supercharger",
+        "Street Address": "75 Middlesex Turnpike",
+        "City": "Burlington",
+        "State": "MA",
+        "ZIP": 1803,
+        "Latitude": 42.483562,
+        "Longitude": -71.216703,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.216703, 42.483562] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "The 440 - Tesla Supercharger",
+        "Street Address": "440 Middlesex Road",
+        "City": "Tyngsborough",
+        "State": "MA",
+        "ZIP": 1879,
+        "Latitude": 42.697284,
+        "Longitude": -71.439877,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.439877, 42.697284] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Cumberland Farms - Tesla Supercharger",
+        "Street Address": "163 Patriots Rd",
+        "City": "Templeton",
+        "State": "MA",
+        "ZIP": 1468,
+        "Latitude": 42.561167,
+        "Longitude": -72.0407787,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-72.0407787, 42.561167] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Gloucester Crossing - Tesla Supercharger",
+        "Street Address": "231 Gloucester Crossing Road",
+        "City": "Gloucester",
+        "State": "MA",
+        "ZIP": 1930,
+        "Latitude": 42.623414,
+        "Longitude": -70.654457,
+        "Country": "US",
+        "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.654457, 42.623414] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Chocolate Springs Café - Tesla Supercharger",
+        "Street Address": "55 Pittsfield Rd",
+        "City": "Lenox",
+        "State": "MA",
+        "ZIP": 1240,
+        "Latitude": 42.377028,
+        "Longitude": -73.277352,
+        "Country": "US",
+        "EV Pricing": null
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.277352, 42.377028] }
+    }
+  ]
+}

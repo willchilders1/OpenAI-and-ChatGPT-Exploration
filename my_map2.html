@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dcb5af32da0cb1e68c23429c32a6893a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dcb5af32da0cb1e68c23429c32a6893a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dcb5af32da0cb1e68c23429c32a6893a = L.map(
+                "map_dcb5af32da0cb1e68c23429c32a6893a",
+                {
+                    center: [42.342653, -71.05163],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_af3fe0ef5fe76fec5eabdea74efb47bb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_dcb5af32da0cb1e68c23429c32a6893a);
+        
+    
+        var custom_icon_73c681a4e1d3556ce554c60803889287 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_73c681a4e1d3556ce554c60803889287);
+        
+    
+        var custom_icon_c504c5dd221ce3e47d4e1cc659f622e7 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_c504c5dd221ce3e47d4e1cc659f622e7);
+        
+    
+        var custom_icon_35b997298cf8819821db6b2a3d68fbd8 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_35b997298cf8819821db6b2a3d68fbd8);
+        
+    
+        var custom_icon_9fb5ca425ac028cab79ce9ca04c5a7f5 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_9fb5ca425ac028cab79ce9ca04c5a7f5);
+        
+    
+        var custom_icon_c8f8bb4954dc85a9040cfca60a31ed17 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_c8f8bb4954dc85a9040cfca60a31ed17);
+        
+    
+        var custom_icon_78ce9f003ebbab4c14d14a7e7d7d6798 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_78ce9f003ebbab4c14d14a7e7d7d6798);
+        
+    
+        var custom_icon_b24077d0b9fd0744f8ca00c0c25c2d9b = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_b24077d0b9fd0744f8ca00c0c25c2d9b);
+        
+    
+        var custom_icon_86026fa1cc5bb896ccf853bd3995fe34 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_86026fa1cc5bb896ccf853bd3995fe34);
+        
+    
+        var custom_icon_b839adda94f29d0fd9e3b2f7747de6a9 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_b839adda94f29d0fd9e3b2f7747de6a9);
+        
+    
+        var custom_icon_2f763e4a7cb664ca009f048db761a975 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_2f763e4a7cb664ca009f048db761a975);
+        
+    
+        var custom_icon_c2ac34cd3031bfa4cac8a6eb54b59be4 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_c2ac34cd3031bfa4cac8a6eb54b59be4);
+        
+    
+        var custom_icon_e24c8d75aa357ad2dce5a2da70c849ea = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_e24c8d75aa357ad2dce5a2da70c849ea);
+        
+    
+        var custom_icon_e540c4ebf2304215a1c2526e7f0d2682 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_e540c4ebf2304215a1c2526e7f0d2682);
+        
+    
+        var custom_icon_2e6ef7933e9f8ffc7cbc4af780f4527c = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_2e6ef7933e9f8ffc7cbc4af780f4527c);
+        
+    
+        var custom_icon_873c358cd625122f194bf1e8a5be7e26 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_873c358cd625122f194bf1e8a5be7e26);
+        
+    
+        var custom_icon_e240b38645fb3ac8f66e9d873e18f879 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_e240b38645fb3ac8f66e9d873e18f879);
+        
+    
+        var custom_icon_301fe0db84003bc65471e5dfcd33046f = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_301fe0db84003bc65471e5dfcd33046f);
+        
+    
+        var custom_icon_b2e6b09b6868a218281ab4e13e318298 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_b2e6b09b6868a218281ab4e13e318298);
+        
+    
+        var custom_icon_9f3f954a8e68d1394e19e21da2dea569 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_9f3f954a8e68d1394e19e21da2dea569);
+        
+    
+        var custom_icon_e598c1da51e109f01216a45408a28037 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_e598c1da51e109f01216a45408a28037);
+        
+    
+        var custom_icon_6fe6eaad88dc214562ede19190a0677d = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_6fe6eaad88dc214562ede19190a0677d);
+        
+    
+        var custom_icon_c8107bdb77ab613b16ffcfe98d72a76f = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_c8107bdb77ab613b16ffcfe98d72a76f);
+        
+    
+        var custom_icon_b7554145e91c3173def4d8dce4dac1c5 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_b7554145e91c3173def4d8dce4dac1c5);
+        
+    
+        var custom_icon_3ce5ff27c0ac495185a29e770025a97f = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_3ce5ff27c0ac495185a29e770025a97f);
+        
+    
+        var custom_icon_e5b55c4d8582c2870d071bf228211c17 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_e5b55c4d8582c2870d071bf228211c17);
+        
+    
+        var custom_icon_d05c6c2621c649afb19b661053c0247e = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_d05c6c2621c649afb19b661053c0247e);
+        
+    
+        var custom_icon_cba4798dde5a13f229d73e62a6909dff = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_cba4798dde5a13f229d73e62a6909dff);
+        
+    
+        var custom_icon_69b0e94dd28e349d82354e44efaf873f = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_69b0e94dd28e349d82354e44efaf873f);
+        
+    
+        var custom_icon_afcdee4b344f49371cb14d2695deb075 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_afcdee4b344f49371cb14d2695deb075);
+        
+    
+        var custom_icon_a43613c6a153eef49cf7314452a302aa = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_a43613c6a153eef49cf7314452a302aa);
+        
+    
+        var custom_icon_3e328ec1ac0c62c2a9c33fe8ead48487 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_3e328ec1ac0c62c2a9c33fe8ead48487);
+        
+    
+        var custom_icon_8d3a6a71930fbf11e462b285fa9ff288 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_8d3a6a71930fbf11e462b285fa9ff288);
+        
+    
+        var custom_icon_6daf0e1b0504a4e74d22be0c2f25f599 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_6daf0e1b0504a4e74d22be0c2f25f599);
+        
+    
+        var custom_icon_05b87a11b0c32bd6ba95cb29d7783be3 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_05b87a11b0c32bd6ba95cb29d7783be3);
+        
+    
+        var custom_icon_50245f4e6adccb098a396e5d1325e9c2 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_50245f4e6adccb098a396e5d1325e9c2);
+        
+    
+        var custom_icon_fc8b6d549c7cbd95478922abb4afa231 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_fc8b6d549c7cbd95478922abb4afa231);
+        
+    
+        var custom_icon_5c35c67b5eaa14796db1c0de4da42125 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_5c35c67b5eaa14796db1c0de4da42125);
+        
+    
+        var custom_icon_34e4d630623445492ae1f5e3d39226d4 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_34e4d630623445492ae1f5e3d39226d4);
+        
+    
+        var custom_icon_a77df7ffc8ec02091ec57b8516d96da0 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_a77df7ffc8ec02091ec57b8516d96da0);
+        
+    
+        var custom_icon_1334e16201d3a5fb4f9320b91caef0bf = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_1334e16201d3a5fb4f9320b91caef0bf);
+        
+    
+        var custom_icon_072d3d6bf760fbaae73f978332e38fef = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_072d3d6bf760fbaae73f978332e38fef);
+        
+    
+        var custom_icon_52bf856c49d5c87e58b882a361c4282e = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_52bf856c49d5c87e58b882a361c4282e);
+        
+    
+        var custom_icon_5abcebd187ba5fe0f40467cd94958052 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_5abcebd187ba5fe0f40467cd94958052);
+        
+    
+        var custom_icon_d6a39a98bf95a6d909e2e197a4803b05 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_d6a39a98bf95a6d909e2e197a4803b05);
+        
+    
+        var custom_icon_bcb8c4fe3cd3a2e92fcc77db8203aa76 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_bcb8c4fe3cd3a2e92fcc77db8203aa76);
+        
+    
+        var custom_icon_d8e19ef762014a721f2597ef78774782 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_d8e19ef762014a721f2597ef78774782);
+        
+    
+        var custom_icon_8a4c6d6a8b4d3114e3a1c61af3ad5d32 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_8a4c6d6a8b4d3114e3a1c61af3ad5d32);
+        
+    
+        var custom_icon_45d5b1e87ccf935b217cca2530ca5d96 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_45d5b1e87ccf935b217cca2530ca5d96);
+        
+    
+        var custom_icon_a564d8374566c3d7a108bd01a870f1f0 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_a564d8374566c3d7a108bd01a870f1f0);
+        
+    
+        var custom_icon_4e6201c6ca67ed440c09f6ba872a403a = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_4e6201c6ca67ed440c09f6ba872a403a);
+        
+    
+        var custom_icon_c7e1f4af9c397f1bfcec89b8e96076bb = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_c7e1f4af9c397f1bfcec89b8e96076bb);
+        
+    
+        var custom_icon_5280af5dbadb9a484af4f348349ccc93 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_5280af5dbadb9a484af4f348349ccc93);
+        
+    
+        var custom_icon_4a3596b7bd1e0b547df2fd3ec9ceb609 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_4a3596b7bd1e0b547df2fd3ec9ceb609);
+        
+    
+        var custom_icon_3ccdc87e0a7c65f86fe5058c1aa20594 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_3ccdc87e0a7c65f86fe5058c1aa20594);
+        
+    
+        var custom_icon_2fd8a8d3be429ae7de6f30d4b5d80a65 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_2fd8a8d3be429ae7de6f30d4b5d80a65);
+        
+    
+        var custom_icon_f10396db6bdf9d0e4b609fa83d2c1000 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_f10396db6bdf9d0e4b609fa83d2c1000);
+        
+    
+        var custom_icon_549b96efa96960c33e1851f8ee1a3c48 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_549b96efa96960c33e1851f8ee1a3c48);
+        
+    
+        var custom_icon_0243fd0a9d36699c330b5c2b7eddaa2c = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_0243fd0a9d36699c330b5c2b7eddaa2c);
+        
+    
+        var custom_icon_0e8b6e9152949c54c15910d9b16e0c8b = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_0e8b6e9152949c54c15910d9b16e0c8b);
+        
+    
+        var custom_icon_047444bad62fbdac4e866c66277243a6 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_047444bad62fbdac4e866c66277243a6);
+        
+    
+        var custom_icon_f8cf27389bf5e169fb69a5e588c0d811 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_f8cf27389bf5e169fb69a5e588c0d811);
+        
+    
+        var custom_icon_22087bab5309400dafc63500dc606139 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_22087bab5309400dafc63500dc606139);
+        
+    
+        var custom_icon_c23aef40f478270a3aff33a957bcdd62 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_c23aef40f478270a3aff33a957bcdd62);
+        
+    
+        var custom_icon_6e8616db23f2701c5e1f270faebaf64a = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_6e8616db23f2701c5e1f270faebaf64a);
+        
+    
+        var custom_icon_4e2123f7545d0afa4faa7604404a1f27 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_4e2123f7545d0afa4faa7604404a1f27);
+        
+    
+        var custom_icon_93ed4c709a8990f4243015dee07c4ee5 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_93ed4c709a8990f4243015dee07c4ee5);
+        
+    
+        var custom_icon_f9abf4ddcd528e5b2bef8ac4535ff589 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_f9abf4ddcd528e5b2bef8ac4535ff589);
+        
+    
+        var custom_icon_b4d6e7ff2d09bf0435bce116ebbcce0b = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_b4d6e7ff2d09bf0435bce116ebbcce0b);
+        
+    
+        var custom_icon_413536ae278634e0c699e6413e023482 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_413536ae278634e0c699e6413e023482);
+        
+    
+        var custom_icon_6676f793fef6a779c17487fe5f340253 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_6676f793fef6a779c17487fe5f340253);
+        
+    
+        var custom_icon_14b046b8a30d4830ec46627ed1bedaa1 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_14b046b8a30d4830ec46627ed1bedaa1);
+        
+    
+        var custom_icon_c55012e4cf954bf1b38e0fdcd864f30f = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_c55012e4cf954bf1b38e0fdcd864f30f);
+        
+    
+        var custom_icon_cf75d2da7939a98fe6cbdcaa2b9bfcd0 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_cf75d2da7939a98fe6cbdcaa2b9bfcd0);
+        
+    
+        var custom_icon_e99ad568ebd6bd5c33fbb3a6e6a28730 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_e99ad568ebd6bd5c33fbb3a6e6a28730);
+        
+    
+        var custom_icon_11cfa5a3ca8224083b02c23bbd727457 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_11cfa5a3ca8224083b02c23bbd727457);
+        
+    
+        var custom_icon_9dc3ca7924d10158228c8eafd0d6874a = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_9dc3ca7924d10158228c8eafd0d6874a);
+        
+    
+        var custom_icon_471ac4f5f66fa3a6b2d0b7f58e2ccd5c = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_471ac4f5f66fa3a6b2d0b7f58e2ccd5c);
+        
+    
+        var custom_icon_f74b888e636bd67801455f45a1234670 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_f74b888e636bd67801455f45a1234670);
+        
+    
+        var custom_icon_90fdbc48a0220549fe12189e3cecf0cd = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_90fdbc48a0220549fe12189e3cecf0cd);
+        
+    
+        var custom_icon_b9b19728e7401e455f128bedbbf6e40c = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_b9b19728e7401e455f128bedbbf6e40c);
+        
+    
+        var custom_icon_25efc758c13e6880330d82c79a46cfc9 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_25efc758c13e6880330d82c79a46cfc9);
+        
+    
+        var custom_icon_96f8d5011bda92831976bb14a0376846 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_96f8d5011bda92831976bb14a0376846);
+        
+    
+        var custom_icon_1d695f182c383e63184869bc4381405a = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_1d695f182c383e63184869bc4381405a);
+        
+    
+        var custom_icon_bb503f22643f43a79afefc465548bed5 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_bb503f22643f43a79afefc465548bed5);
+        
+    
+        var custom_icon_fbc657d106862d13612af19aac16caa9 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_fbc657d106862d13612af19aac16caa9);
+        
+    
+        var custom_icon_6344ae79b637b448360d2c6aa86ae02e = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_6344ae79b637b448360d2c6aa86ae02e);
+        
+    
+        var custom_icon_17a63cb718244da26c90f081d661c7bb = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_17a63cb718244da26c90f081d661c7bb);
+        
+    
+        var custom_icon_ec0c160b56aa0db2765aae2189b6ac50 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_ec0c160b56aa0db2765aae2189b6ac50);
+        
+    
+        var custom_icon_e78cb3b0d7857ecf0792ca345f4f0637 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_e78cb3b0d7857ecf0792ca345f4f0637);
+        
+    
+        var custom_icon_06c4813e51eb4d465b1cd894f3663cbc = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_06c4813e51eb4d465b1cd894f3663cbc);
+        
+    
+        var custom_icon_f7e99d458a6004f6353f29f017ed5e5d = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electric-car-icon.svg"});
+        geo_json_0c89dc54cf9cdbd0b514fe40717b12b5.setIcon(custom_icon_f7e99d458a6004f6353f29f017ed5e5d);
+        
+    
+        // function geo_json_0c89dc54cf9cdbd0b514fe40717b12b5_styler(feature) {
+        //     switch(feature.properties.Street Address) {
+        //         case "116 W First St": 
+        //             return {"fillColor": "green", "icon": custom_icon_73c681a4e1d3556ce554c60803889287};
+        //         case "385 Southbridge St.": 
+        //             return {"fillColor": "green", "icon": custom_icon_c504c5dd221ce3e47d4e1cc659f622e7};
+        //         case "101 Allstate Road": 
+        //             return {"fillColor": "green", "icon": custom_icon_35b997298cf8819821db6b2a3d68fbd8};
+        //         case "800 Boylston Street": 
+        //             return {"fillColor": "green", "icon": custom_icon_9fb5ca425ac028cab79ce9ca04c5a7f5};
+        //         case "100 Cambridgeside Place": 
+        //             return {"fillColor": "green", "icon": custom_icon_c8f8bb4954dc85a9040cfca60a31ed17};
+        //         case "840 Providence Highway": 
+        //             return {"fillColor": "green", "icon": custom_icon_78ce9f003ebbab4c14d14a7e7d7d6798};
+        //         case "1 Worcester Rd": 
+        //             return {"fillColor": "green", "icon": custom_icon_b24077d0b9fd0744f8ca00c0c25c2d9b};
+        //         case "25 Russell Street": 
+        //             return {"fillColor": "green", "icon": custom_icon_86026fa1cc5bb896ccf853bd3995fe34};
+        //         case "10 Pleasant St.": 
+        //             return {"fillColor": "green", "icon": custom_icon_b839adda94f29d0fd9e3b2f7747de6a9};
+        //         case "100 Commercial Road": 
+        //             return {"fillColor": "green", "icon": custom_icon_2f763e4a7cb664ca009f048db761a975};
+        //         case "280 School Street": 
+        //             return {"fillColor": "green", "icon": custom_icon_c2ac34cd3031bfa4cac8a6eb54b59be4};
+        //         case "22 Meetinghouse Lane": 
+        //             return {"fillColor": "green", "icon": custom_icon_e24c8d75aa357ad2dce5a2da70c849ea};
+        //         case "935 Riverdale Street": 
+        //             return {"fillColor": "green", "icon": custom_icon_e540c4ebf2304215a1c2526e7f0d2682};
+        //         case "168 Western Ave": 
+        //             return {"fillColor": "green", "icon": custom_icon_2e6ef7933e9f8ffc7cbc4af780f4527c};
+        //         case "284  Elm St": 
+        //             return {"fillColor": "green", "icon": custom_icon_873c358cd625122f194bf1e8a5be7e26};
+        //         case "287 Iyannough Rd": 
+        //             return {"fillColor": "green", "icon": custom_icon_e240b38645fb3ac8f66e9d873e18f879};
+        //         case "10 Huntington Ave": 
+        //             return {"fillColor": "green", "icon": custom_icon_301fe0db84003bc65471e5dfcd33046f};
+        //         case "100 Stuart St": 
+        //             return {"fillColor": "green", "icon": custom_icon_b2e6b09b6868a218281ab4e13e318298};
+        //         case "200 Boylston St": 
+        //             return {"fillColor": "green", "icon": custom_icon_9f3f954a8e68d1394e19e21da2dea569};
+        //         case "240 Mount Vernon St": 
+        //             return {"fillColor": "green", "icon": custom_icon_e598c1da51e109f01216a45408a28037};
+        //         case "26 North St": 
+        //             return {"fillColor": "green", "icon": custom_icon_6fe6eaad88dc214562ede19190a0677d};
+        //         case "39 Dalton St": 
+        //             return {"fillColor": "green", "icon": custom_icon_c8107bdb77ab613b16ffcfe98d72a76f};
+        //         case "61 Exeter St": 
+        //             return {"fillColor": "green", "icon": custom_icon_b7554145e91c3173def4d8dce4dac1c5};
+        //         case "776 Boylston St": 
+        //             return {"fillColor": "green", "icon": custom_icon_3ce5ff27c0ac495185a29e770025a97f};
+        //         case "821 Washington St": 
+        //             return {"fillColor": "green", "icon": custom_icon_e5b55c4d8582c2870d071bf228211c17};
+        //         case "90 Tremont St": 
+        //             return {"fillColor": "green", "icon": custom_icon_d05c6c2621c649afb19b661053c0247e};
+        //         case "15 Breakwater Rd": 
+        //             return {"fillColor": "green", "icon": custom_icon_cba4798dde5a13f229d73e62a6909dff};
+        //         case "500 Memorial Dr": 
+        //             return {"fillColor": "green", "icon": custom_icon_69b0e94dd28e349d82354e44efaf873f};
+        //         case "777  Virginia Rd": 
+        //             return {"fillColor": "green", "icon": custom_icon_afcdee4b344f49371cb14d2695deb075};
+        //         case "131 N Water St": 
+        //             return {"fillColor": "green", "icon": custom_icon_a43613c6a153eef49cf7314452a302aa};
+        //         case "132 Falmouth Rd": 
+        //             return {"fillColor": "green", "icon": custom_icon_3e328ec1ac0c62c2a9c33fe8ead48487};
+        //         case "81 Palmer Ave": 
+        //             return {"fillColor": "green", "icon": custom_icon_8d3a6a71930fbf11e462b285fa9ff288};
+        //         case "37 Corey Rd": 
+        //             return {"fillColor": "green", "icon": custom_icon_6daf0e1b0504a4e74d22be0c2f25f599};
+        //         case "2173 MA-28": 
+        //             return {"fillColor": "green", "icon": custom_icon_05b87a11b0c32bd6ba95cb29d7783be3};
+        //         case "279 W Park St": 
+        //             return {"fillColor": "green", "icon": custom_icon_50245f4e6adccb098a396e5d1325e9c2};
+        //         case "85 Stockbridge Rd": 
+        //             return {"fillColor": "green", "icon": custom_icon_5c35c67b5eaa14796db1c0de4da42125};
+        //         case "15 Hawthorne St": 
+        //             return {"fillColor": "green", "icon": custom_icon_34e4d630623445492ae1f5e3d39226d4};
+        //         case "51 Walker St": 
+        //             return {"fillColor": "green", "icon": custom_icon_a77df7ffc8ec02091ec57b8516d96da0};
+        //         case "55  Lee Rd": 
+        //             return {"fillColor": "green", "icon": custom_icon_1334e16201d3a5fb4f9320b91caef0bf};
+        //         case "6 Blantyre Rd": 
+        //             return {"fillColor": "green", "icon": custom_icon_072d3d6bf760fbaae73f978332e38fef};
+        //         case "7 Hubbard St": 
+        //             return {"fillColor": "green", "icon": custom_icon_52bf856c49d5c87e58b882a361c4282e};
+        //         case "91 Walker St": 
+        //             return {"fillColor": "green", "icon": custom_icon_5abcebd187ba5fe0f40467cd94958052};
+        //         case "58 Washington St": 
+        //             return {"fillColor": "green", "icon": custom_icon_d6a39a98bf95a6d909e2e197a4803b05};
+        //         case "22 Steeple St": 
+        //             return {"fillColor": "green", "icon": custom_icon_bcb8c4fe3cd3a2e92fcc77db8203aa76};
+        //         case "10  Westmoor Ln": 
+        //             return {"fillColor": "green", "icon": custom_icon_d8e19ef762014a721f2597ef78774782};
+        //         case "96 Washington St": 
+        //             return {"fillColor": "green", "icon": custom_icon_8a4c6d6a8b4d3114e3a1c61af3ad5d32};
+        //         case "59 Newbury St": 
+        //             return {"fillColor": "green", "icon": custom_icon_45d5b1e87ccf935b217cca2530ca5d96};
+        //         case "35 Landmark Drive": 
+        //             return {"fillColor": "green", "icon": custom_icon_a564d8374566c3d7a108bd01a870f1f0};
+        //         case "336 Commercial St": 
+        //             return {"fillColor": "green", "icon": custom_icon_4e6201c6ca67ed440c09f6ba872a403a};
+        //         case "165  Main Street": 
+        //             return {"fillColor": "green", "icon": custom_icon_c7e1f4af9c397f1bfcec89b8e96076bb};
+        //         case "222  Adams Rd": 
+        //             return {"fillColor": "green", "icon": custom_icon_5280af5dbadb9a484af4f348349ccc93};
+        //         case "22 Steeple Street": 
+        //             return {"fillColor": "green", "icon": custom_icon_4a3596b7bd1e0b547df2fd3ec9ceb609};
+        //         case "2 Highland Common East": 
+        //             return {"fillColor": "green", "icon": custom_icon_3ccdc87e0a7c65f86fe5058c1aa20594};
+        //         case "15 Lecount Hollow Rd": 
+        //             return {"fillColor": "green", "icon": custom_icon_2fd8a8d3be429ae7de6f30d4b5d80a65};
+        //         case "1341 Boylston Street": 
+        //             return {"fillColor": "green", "icon": custom_icon_f10396db6bdf9d0e4b609fa83d2c1000};
+        //         case "250 Granite Street": 
+        //             return {"fillColor": "green", "icon": custom_icon_549b96efa96960c33e1851f8ee1a3c48};
+        //         case "600 Market St": 
+        //             return {"fillColor": "green", "icon": custom_icon_0243fd0a9d36699c330b5c2b7eddaa2c};
+        //         case "20 Clinton St": 
+        //             return {"fillColor": "green", "icon": custom_icon_0e8b6e9152949c54c15910d9b16e0c8b};
+        //         case "129 Sturbridge Rd": 
+        //             return {"fillColor": "green", "icon": custom_icon_047444bad62fbdac4e866c66277243a6};
+        //         case "50 Hudson Rd": 
+        //             return {"fillColor": "green", "icon": custom_icon_f8cf27389bf5e169fb69a5e588c0d811};
+        //         case "2421 Cranberry HIghway": 
+        //             return {"fillColor": "green", "icon": custom_icon_22087bab5309400dafc63500dc606139};
+        //         case "2110 Cranberry Highway": 
+        //             return {"fillColor": "green", "icon": custom_icon_c23aef40f478270a3aff33a957bcdd62};
+        //         case "55 Boylston Street": 
+        //             return {"fillColor": "green", "icon": custom_icon_6e8616db23f2701c5e1f270faebaf64a};
+        //         case "40 Furlong Drive": 
+        //             return {"fillColor": "green", "icon": custom_icon_4e2123f7545d0afa4faa7604404a1f27};
+        //         case "425 Attucks Lane": 
+        //             return {"fillColor": "green", "icon": custom_icon_93ed4c709a8990f4243015dee07c4ee5};
+        //         case "700 Main Street Route 7": 
+        //             return {"fillColor": "green", "icon": custom_icon_f9abf4ddcd528e5b2bef8ac4535ff589};
+        //         case "48 Holman Rd": 
+        //             return {"fillColor": "green", "icon": custom_icon_b4d6e7ff2d09bf0435bce116ebbcce0b};
+        //         case "925 Airport Rd": 
+        //             return {"fillColor": "green", "icon": custom_icon_413536ae278634e0c699e6413e023482};
+        //         case "41 Double Brook Rd": 
+        //             return {"fillColor": "green", "icon": custom_icon_6676f793fef6a779c17487fe5f340253};
+        //         case "27 W Main Street": 
+        //             return {"fillColor": "green", "icon": custom_icon_14b046b8a30d4830ec46627ed1bedaa1};
+        //         case "2 Avery St": 
+        //             return {"fillColor": "green", "icon": custom_icon_c55012e4cf954bf1b38e0fdcd864f30f};
+        //         case "55 N Lake Ave": 
+        //             return {"fillColor": "green", "icon": custom_icon_cf75d2da7939a98fe6cbdcaa2b9bfcd0};
+        //         case "880 Burnett Road": 
+        //             return {"fillColor": "green", "icon": custom_icon_e99ad568ebd6bd5c33fbb3a6e6a28730};
+        //         case "812 Constitution Avenue": 
+        //             return {"fillColor": "green", "icon": custom_icon_11cfa5a3ca8224083b02c23bbd727457};
+        //         case "6 Massachusetts Turnpike": 
+        //             return {"fillColor": "green", "icon": custom_icon_9dc3ca7924d10158228c8eafd0d6874a};
+        //         case "Mile Marker 80 Eastbound Mass Turnpike": 
+        //             return {"fillColor": "green", "icon": custom_icon_471ac4f5f66fa3a6b2d0b7f58e2ccd5c};
+        //         case "690 Marrett Road": 
+        //             return {"fillColor": "green", "icon": custom_icon_f74b888e636bd67801455f45a1234670};
+        //         case "1 Hawes Way": 
+        //             return {"fillColor": "green", "icon": custom_icon_90fdbc48a0220549fe12189e3cecf0cd};
+        //         case "101 Commerce Way": 
+        //             return {"fillColor": "green", "icon": custom_icon_b9b19728e7401e455f128bedbbf6e40c};
+        //         case "650 Memorial Drive": 
+        //             return {"fillColor": "green", "icon": custom_icon_25efc758c13e6880330d82c79a46cfc9};
+        //         case "250 Franklin Village Drive": 
+        //             return {"fillColor": "green", "icon": custom_icon_96f8d5011bda92831976bb14a0376846};
+        //         case "965 Fall River Avenue": 
+        //             return {"fillColor": "green", "icon": custom_icon_1d695f182c383e63184869bc4381405a};
+        //         case "779 McGrath Highway": 
+        //             return {"fillColor": "green", "icon": custom_icon_bb503f22643f43a79afefc465548bed5};
+        //         case "83 Faunce Corner Mall Road": 
+        //             return {"fillColor": "green", "icon": custom_icon_fbc657d106862d13612af19aac16caa9};
+        //         case "1775 Washington Street": 
+        //             return {"fillColor": "green", "icon": custom_icon_6344ae79b637b448360d2c6aa86ae02e};
+        //         case "75 Middlesex Turnpike": 
+        //             return {"fillColor": "green", "icon": custom_icon_17a63cb718244da26c90f081d661c7bb};
+        //         case "440 Middlesex Road": 
+        //             return {"fillColor": "green", "icon": custom_icon_ec0c160b56aa0db2765aae2189b6ac50};
+        //         case "163 Patriots Rd": 
+        //             return {"fillColor": "green", "icon": custom_icon_e78cb3b0d7857ecf0792ca345f4f0637};
+        //         case "231 Gloucester Crossing Road": 
+        //             return {"fillColor": "green", "icon": custom_icon_06c4813e51eb4d465b1cd894f3663cbc};
+        //         case "55 Pittsfield Rd": 
+        //             return {"fillColor": "green", "icon": custom_icon_f7e99d458a6004f6353f29f017ed5e5d};
+        //         default:
+        //             return {"fillColor": "green", "icon": custom_icon_fc8b6d549c7cbd95478922abb4afa231};
+        //     }
+        // }
+
+        function geo_json_0c89dc54cf9cdbd0b514fe40717b12b5_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_0c89dc54cf9cdbd0b514fe40717b12b5 = L.geoJson(null, {
+                onEachFeature: geo_json_0c89dc54cf9cdbd0b514fe40717b12b5_onEachFeature,
+            
+                style: geo_json_0c89dc54cf9cdbd0b514fe40717b12b5_styler,
+        });
+
+        function geo_json_0c89dc54cf9cdbd0b514fe40717b12b5_add (data) {
+            geo_json_0c89dc54cf9cdbd0b514fe40717b12b5
+                .addData(data)
+                .addTo(map_dcb5af32da0cb1e68c23429c32a6893a);
+        }
+            geo_json_0c89dc54cf9cdbd0b514fe40717b12b5_add({"crs": {"properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}, "type": "name"}, "features": [{"geometry": {"coordinates": [-71.05163, 42.342653], "type": "Point"}, "properties": {"City": "Boston", "Country": "US", "EV Pricing": "$23 early bird (before 9am), $30 after, regardless of charging time. Pay at garage office.", "Latitude": 42.342653, "Longitude": -71.05163, "State": "MA", "Station Name": "Channel Center Garage", "Street Address": "116 W First St", "ZIP": 2127}, "type": "Feature"}, {"geometry": {"coordinates": [-71.833059, 42.203734], "type": "Point"}, "properties": {"City": "Auburn", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.203734, "Longitude": -71.833059, "State": "MA", "Station Name": "Auburn Mall - Tesla Supercharger", "Street Address": "385 Southbridge St.", "ZIP": 1501}, "type": "Feature"}, {"geometry": {"coordinates": [-71.0633, 42.3255], "type": "Point"}, "properties": {"City": "Boston", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.3255, "Longitude": -71.0633, "State": "MA", "Station Name": "South Bay Town Center - Tesla Supercharger", "Street Address": "101 Allstate Road", "ZIP": 2125}, "type": "Feature"}, {"geometry": {"coordinates": [-71.081003, 42.34717], "type": "Point"}, "properties": {"City": "Boston", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.34717, "Longitude": -71.081003, "State": "MA", "Station Name": "The Prudential Center - Tesla Supercharger", "Street Address": "800 Boylston Street", "ZIP": 2199}, "type": "Feature"}, {"geometry": {"coordinates": [-71.0762, 42.3685], "type": "Point"}, "properties": {"City": "Cambridge", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.3685, "Longitude": -71.0762, "State": "MA", "Station Name": "Cambridge, MA - Tesla Supercharger", "Street Address": "100 Cambridgeside Place", "ZIP": 2141}, "type": "Feature"}, {"geometry": {"coordinates": [-71.178325, 42.236461], "type": "Point"}, "properties": {"City": "Dedham", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.236461, "Longitude": -71.178325, "State": "MA", "Station Name": "Tesla Service Center Dedham - Tesla Supercharger", "Street Address": "840 Providence Highway", "ZIP": 2026}, "type": "Feature"}, {"geometry": {"coordinates": [-71.394175, 42.303647], "type": "Point"}, "properties": {"City": "Framingham", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.303647, "Longitude": -71.394175, "State": "MA", "Station Name": "Shopper\u0027s World - Tesla Supercharger", "Street Address": "1 Worcester Rd", "ZIP": 1701}, "type": "Feature"}, {"geometry": {"coordinates": [-72.609253, 42.338748], "type": "Point"}, "properties": {"City": "Hadley", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.338748, "Longitude": -72.609253, "State": "MA", "Station Name": "Pride Store - Tesla Supercharger", "Street Address": "25 Russell Street", "ZIP": 1035}, "type": "Feature"}, {"geometry": {"coordinates": [-73.239226, 42.295745], "type": "Point"}, "properties": {"City": "Lee", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.295745, "Longitude": -73.239226, "State": "MA", "Station Name": "Big Y Supermarket - Tesla Supercharger", "Street Address": "10 Pleasant St.", "ZIP": 1238}, "type": "Feature"}, {"geometry": {"coordinates": [-71.744201, 42.529592], "type": "Point"}, "properties": {"City": "Leominster", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.529592, "Longitude": -71.744201, "State": "MA", "Station Name": "The Mall at Whitney Field - Tesla Supercharger", "Street Address": "100 Commercial Road", "ZIP": 1453}, "type": "Feature"}, {"geometry": {"coordinates": [-71.23175, 42.013724], "type": "Point"}, "properties": {"City": "Mansfield", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.013724, "Longitude": -71.23175, "State": "MA", "Station Name": "Mansfield Crossing - Tesla Supercharger", "Street Address": "280 School Street", "ZIP": 2048}, "type": "Feature"}, {"geometry": {"coordinates": [-70.540289, 41.781195], "type": "Point"}, "properties": {"City": "Sagamore Beach", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 41.781195, "Longitude": -70.540289, "State": "MA", "Station Name": "Dunkin\u0027 Donuts - Tesla Supercharger", "Street Address": "22 Meetinghouse Lane", "ZIP": 2562}, "type": "Feature"}, {"geometry": {"coordinates": [-72.621435, 42.130914], "type": "Point"}, "properties": {"City": "West Springfield", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.130914, "Longitude": -72.621435, "State": "MA", "Station Name": "Riverdale Shops - Tesla Supercharger", "Street Address": "935 Riverdale Street", "ZIP": 1089}, "type": "Feature"}, {"geometry": {"coordinates": [-71.128439, 42.36293], "type": "Point"}, "properties": {"City": "Allston", "Country": "US", "EV Pricing": "Free", "Latitude": 42.36293, "Longitude": -71.128439, "State": "MA", "Station Name": "Swissbakers Inc. - Tesla Destination", "Street Address": "168 Western Ave", "ZIP": 2134}, "type": "Feature"}, {"geometry": {"coordinates": [-70.90827, 42.847566], "type": "Point"}, "properties": {"City": "Amesbury", "Country": "US", "EV Pricing": "Free", "Latitude": 42.847566, "Longitude": -70.90827, "State": "MA", "Station Name": "Hampton Inn Amesbury - Tesla Destination", "Street Address": "284  Elm St", "ZIP": 1913}, "type": "Feature"}, {"geometry": {"coordinates": [-70.2803, 41.661139], "type": "Point"}, "properties": {"City": "Barnstable", "Country": "US", "EV Pricing": "Free", "Latitude": 41.661139, "Longitude": -70.2803, "State": "MA", "Station Name": "Doubletree by Hilton Cape Cod - Hyannis - Tesla Destination", "Street Address": "287 Iyannough Rd", "ZIP": 2601}, "type": "Feature"}, {"geometry": {"coordinates": [-71.077311, 42.348567], "type": "Point"}, "properties": {"City": "Boston", "Country": "US", "EV Pricing": "Free", "Latitude": 42.348567, "Longitude": -71.077311, "State": "MA", "Station Name": "The Westin Copley Place - Tesla Destination", "Street Address": "10 Huntington Ave", "ZIP": 2116}, "type": "Feature"}, {"geometry": {"coordinates": [-71.065558, 42.350937], "type": "Point"}, "properties": {"City": "Boston", "Country": "US", "EV Pricing": "Free", "Latitude": 42.350937, "Longitude": -71.065558, "State": "MA", "Station Name": "W Boston Hotel Hotel \u0026 Residences - Tesla Destination", "Street Address": "100 Stuart St", "ZIP": 2116}, "type": "Feature"}, {"geometry": {"coordinates": [-71.068005, 42.352269], "type": "Point"}, "properties": {"City": "Boston", "Country": "US", "EV Pricing": "Free", "Latitude": 42.352269, "Longitude": -71.068005, "State": "MA", "Station Name": "Four Seasons Hotel Boston - Tesla Destination", "Street Address": "200 Boylston St", "ZIP": 2116}, "type": "Feature"}, {"geometry": {"coordinates": [-71.045934, 42.319148], "type": "Point"}, "properties": {"City": "Boston", "Country": "US", "EV Pricing": "Free", "Latitude": 42.319148, "Longitude": -71.045934, "State": "MA", "Station Name": "DoubleTree Club by Hilton Boston-Bayside - Tesla Destination", "Street Address": "240 Mount Vernon St", "ZIP": 2125}, "type": "Feature"}, {"geometry": {"coordinates": [-71.056261, 42.360797], "type": "Point"}, "properties": {"City": "Boston", "Country": "US", "EV Pricing": "Free", "Latitude": 42.360797, "Longitude": -71.056261, "State": "MA", "Station Name": "Millennium Bostonian Hotel - Tesla Destination", "Street Address": "26 North St", "ZIP": 2109}, "type": "Feature"}, {"geometry": {"coordinates": [-71.084527, 42.346202], "type": "Point"}, "properties": {"City": "Boston", "Country": "US", "EV Pricing": "Free", "Latitude": 42.346202, "Longitude": -71.084527, "State": "MA", "Station Name": "Sheraton Boston Hotel - Tesla Destination", "Street Address": "39 Dalton St", "ZIP": 2199}, "type": "Feature"}, {"geometry": {"coordinates": [-71.079528, 42.349229], "type": "Point"}, "properties": {"City": "Boston", "Country": "US", "EV Pricing": "Free", "Latitude": 42.349229, "Longitude": -71.079528, "State": "MA", "Station Name": "The Lenox Hotel - Tesla Destination", "Street Address": "61 Exeter St", "ZIP": 2116}, "type": "Feature"}, {"geometry": {"coordinates": [-71.081645, 42.348687], "type": "Point"}, "properties": {"City": "Boston", "Country": "US", "EV Pricing": "Free", "Latitude": 42.348687, "Longitude": -71.081645, "State": "MA", "Station Name": "Mandarin Oriental, Boston - Tesla Destination", "Street Address": "776 Boylston St", "ZIP": 2199}, "type": "Feature"}, {"geometry": {"coordinates": [-71.064781, 42.348863], "type": "Point"}, "properties": {"City": "Boston", "Country": "US", "EV Pricing": "Free", "Latitude": 42.348863, "Longitude": -71.064781, "State": "MA", "Station Name": "DoubleTree by Hilton Boston - Downtown - Tesla Destination", "Street Address": "821 Washington St", "ZIP": 2111}, "type": "Feature"}, {"geometry": {"coordinates": [-71.060688, 42.357362], "type": "Point"}, "properties": {"City": "Boston", "Country": "US", "EV Pricing": "Free", "Latitude": 42.357362, "Longitude": -71.060688, "State": "MA", "Station Name": "Kimpton Nine Zero Hotel - Tesla Destination", "Street Address": "90 Tremont St", "ZIP": 2108}, "type": "Feature"}, {"geometry": {"coordinates": [-70.083124, 41.761856], "type": "Point"}, "properties": {"City": "Brewster", "Country": "US", "EV Pricing": "Free", "Latitude": 41.761856, "Longitude": -70.083124, "State": "MA", "Station Name": "Captain Freeman Inn - Tesla Destination", "Street Address": "15 Breakwater Rd", "ZIP": 2631}, "type": "Feature"}, {"geometry": {"coordinates": [-72.579497, 42.172273], "type": "Point"}, "properties": {"City": "Chicopee", "Country": "US", "EV Pricing": "Free", "Latitude": 42.172273, "Longitude": -72.579497, "State": "MA", "Station Name": "Residence Inn by Marriott - Tesla Destination", "Street Address": "500 Memorial Dr", "ZIP": 1020}, "type": "Feature"}, {"geometry": {"coordinates": [-71.299243, 42.464494], "type": "Point"}, "properties": {"City": "Concord", "Country": "US", "EV Pricing": "Free", "Latitude": 42.464494, "Longitude": -71.299243, "State": "MA", "Station Name": "Rectrix Aviation - Tesla Destination", "Street Address": "777  Virginia Rd", "ZIP": 1742}, "type": "Feature"}, {"geometry": {"coordinates": [-70.506935, 41.393032], "type": "Point"}, "properties": {"City": "Edgartown", "Country": "US", "EV Pricing": "Free", "Latitude": 41.393032, "Longitude": -70.506935, "State": "MA", "Station Name": "The Harbor View Hotel - Tesla Destination", "Street Address": "131 N Water St", "ZIP": 2539}, "type": "Feature"}, {"geometry": {"coordinates": [-70.594347, 41.631265], "type": "Point"}, "properties": {"City": "Falmouth", "Country": "US", "EV Pricing": "Free", "Latitude": 41.631265, "Longitude": -70.594347, "State": "MA", "Station Name": "The Golf Club of Cape Cod - Tesla Destination", "Street Address": "132 Falmouth Rd", "ZIP": 2536}, "type": "Feature"}, {"geometry": {"coordinates": [-70.62019, 41.555519], "type": "Point"}, "properties": {"City": "Falmouth", "Country": "US", "EV Pricing": "Free", "Latitude": 41.555519, "Longitude": -70.62019, "State": "MA", "Station Name": "The Palmer House Inn, a Select Registry Property - Tesla Destination", "Street Address": "81 Palmer Ave", "ZIP": 2540}, "type": "Feature"}, {"geometry": {"coordinates": [-73.290972, 42.55585], "type": "Point"}, "properties": {"City": "Hancock", "Country": "US", "EV Pricing": "Free", "Latitude": 42.55585, "Longitude": -73.290972, "State": "MA", "Station Name": "Jiminy Peak Mountain Resort - Tesla Destination", "Street Address": "37 Corey Rd", "ZIP": 1237}, "type": "Feature"}, {"geometry": {"coordinates": [-69.996093, 41.722628], "type": "Point"}, "properties": {"City": "Harwich", "Country": "US", "EV Pricing": "Free", "Latitude": 41.722628, "Longitude": -69.996093, "State": "MA", "Station Name": "Wequassett Resort and Golf Club - Tesla Destination", "Street Address": "2173 MA-28", "ZIP": 2645}, "type": "Feature"}, {"geometry": {"coordinates": [-73.258542, 42.301083], "type": "Point"}, "properties": {"City": "Lee", "Country": "US", "EV Pricing": "Free", "Latitude": 42.301083, "Longitude": -73.258542, "State": "MA", "Station Name": "Applegate Inn, a Select Registry Property - Tesla Destination", "Street Address": "279 W Park St", "ZIP": 1238}, "type": "Feature"}, {"geometry": {"coordinates": [-73.221919, 42.304763], "type": "Point"}, "properties": {"City": "Lee", "Country": "US", "EV Pricing": "Free", "Latitude": 42.304763, "Longitude": -73.221919, "State": "MA", "Station Name": "The Inn at Stockbridge, a Select Registry Property - Tesla Destination", "Street Address": "30  East St", "ZIP": 1238}, "type": "Feature"}, {"geometry": {"coordinates": [-73.263943, 42.30095], "type": "Point"}, "properties": {"City": "Lee", "Country": "US", "EV Pricing": "Free", "Latitude": 42.30095, "Longitude": -73.263943, "State": "MA", "Station Name": "Devonfield Inn, a Select Registry Property - Tesla Destination", "Street Address": "85 Stockbridge Rd", "ZIP": 1238}, "type": "Feature"}, {"geometry": {"coordinates": [-73.288518, 42.352589], "type": "Point"}, "properties": {"City": "Lenox", "Country": "US", "EV Pricing": "Free", "Latitude": 42.352589, "Longitude": -73.288518, "State": "MA", "Station Name": "Brook Farm Inn, a Select Registry Property - Tesla Destination", "Street Address": "15 Hawthorne St", "ZIP": 1240}, "type": "Feature"}, {"geometry": {"coordinates": [-73.282592, 42.355928], "type": "Point"}, "properties": {"City": "Lenox", "Country": "US", "EV Pricing": "Free", "Latitude": 42.355928, "Longitude": -73.282592, "State": "MA", "Station Name": "Gateways Inn, a Select Registry Property - Tesla Destination", "Street Address": "51 Walker St", "ZIP": 1240}, "type": "Feature"}, {"geometry": {"coordinates": [-73.268624, 42.340328], "type": "Point"}, "properties": {"City": "Lenox", "Country": "US", "EV Pricing": "Free", "Latitude": 42.340328, "Longitude": -73.268624, "State": "MA", "Station Name": "Cranwell Resort, Spa \u0026 Golf Club - Tesla Destination", "Street Address": "55  Lee Rd", "ZIP": 1240}, "type": "Feature"}, {"geometry": {"coordinates": [-73.256307, 42.339036], "type": "Point"}, "properties": {"City": "Lenox", "Country": "US", "EV Pricing": "Free", "Latitude": 42.339036, "Longitude": -73.256307, "State": "MA", "Station Name": "Blantyre - Tesla Destination", "Street Address": "6 Blantyre Rd", "ZIP": 1240}, "type": "Feature"}, {"geometry": {"coordinates": [-73.281626, 42.363027], "type": "Point"}, "properties": {"City": "Lenox", "Country": "US", "EV Pricing": "Free", "Latitude": 42.363027, "Longitude": -73.281626, "State": "MA", "Station Name": "Birchwood Inn, a Select Registry Property - Tesla Destination", "Street Address": "7 Hubbard St", "ZIP": 1240}, "type": "Feature"}, {"geometry": {"coordinates": [-73.280905, 42.355164], "type": "Point"}, "properties": {"City": "Lenox", "Country": "US", "EV Pricing": "Free", "Latitude": 42.355164, "Longitude": -73.280905, "State": "MA", "Station Name": "Hampton Terrace Inn - Tesla Destination", "Street Address": "91 Walker St", "ZIP": 1240}, "type": "Feature"}, {"geometry": {"coordinates": [-70.848242, 42.506063], "type": "Point"}, "properties": {"City": "Marblehead", "Country": "US", "EV Pricing": "Free", "Latitude": 42.506063, "Longitude": -70.848242, "State": "MA", "Station Name": "Harbor Light Inn, a Select Registry Property - Tesla Destination", "Street Address": "58 Washington St", "ZIP": 1945}, "type": "Feature"}, {"geometry": {"coordinates": [-70.491357, 41.616861], "type": "Point"}, "properties": {"City": "Mashpee", "Country": "US", "EV Pricing": "Free", "Latitude": 41.616861, "Longitude": -70.491357, "State": "MA", "Station Name": "Mashpee Commons - Tesla Destination", "Street Address": "22 Steeple St", "ZIP": 2649}, "type": "Feature"}, {"geometry": {"coordinates": [-70.117217, 41.289226], "type": "Point"}, "properties": {"City": "Nantucket", "Country": "US", "EV Pricing": "Free", "Latitude": 41.289226, "Longitude": -70.117217, "State": "MA", "Station Name": "The Westmoor Club - Tesla Destination", "Street Address": "10  Westmoor Ln", "ZIP": 2554}, "type": "Feature"}, {"geometry": {"coordinates": [-70.092471, 41.279088], "type": "Point"}, "properties": {"City": "Nantucket", "Country": "US", "EV Pricing": "Free", "Latitude": 41.279088, "Longitude": -70.092471, "State": "MA", "Station Name": "Great Harbor Yacht Club - Tesla Destination", "Street Address": "96 Washington St", "ZIP": 2554}, "type": "Feature"}, {"geometry": {"coordinates": [-70.983555, 42.556176], "type": "Point"}, "properties": {"City": "Peabody", "Country": "US", "EV Pricing": "Free", "Latitude": 42.556176, "Longitude": -70.983555, "State": "MA", "Station Name": "Hampton Inn Boston/Peabody - Tesla Destination", "Street Address": "59 Newbury St", "ZIP": 1960}, "type": "Feature"}, {"geometry": {"coordinates": [-70.598159, 41.881215], "type": "Point"}, "properties": {"City": "Plymouth", "Country": "US", "EV Pricing": "Free", "Latitude": 41.881215, "Longitude": -70.598159, "State": "MA", "Station Name": "Mirbeau Inn \u0026 Spa at the Pinehills - Tesla Destination", "Street Address": "35 Landmark Drive", "ZIP": 2360}, "type": "Feature"}, {"geometry": {"coordinates": [-70.185219, 42.053058], "type": "Point"}, "properties": {"City": "Provincetown", "Country": "US", "EV Pricing": "Free", "Latitude": 42.053058, "Longitude": -70.185219, "State": "MA", "Station Name": "Sage Inn \u0026 Lounge - Tesla Destination", "Street Address": "336 Commercial St", "ZIP": 2494}, "type": "Feature"}, {"geometry": {"coordinates": [-70.495067, 41.757366], "type": "Point"}, "properties": {"City": "Sandwich", "Country": "US", "EV Pricing": "Free", "Latitude": 41.757366, "Longitude": -70.495067, "State": "MA", "Station Name": "Isaiah Jones Homestead Bed \u0026 Breakfast - Tesla Destination", "Street Address": "165  Main Street", "ZIP": 2563}, "type": "Feature"}, {"geometry": {"coordinates": [-73.191089, 42.705408], "type": "Point"}, "properties": {"City": "Williamstown", "Country": "US", "EV Pricing": "Free", "Latitude": 42.705408, "Longitude": -73.191089, "State": "MA", "Station Name": "The Orchards Hotel - Tesla Destination", "Street Address": "222  Adams Rd", "ZIP": 1267}, "type": "Feature"}, {"geometry": {"coordinates": [-70.488139, 41.617554], "type": "Point"}, "properties": {"City": "Mashpee", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 41.617554, "Longitude": -70.488139, "State": "MA", "Station Name": "Mashpee Commons - Tesla Supercharger", "Street Address": "22 Steeple Street", "ZIP": 2649}, "type": "Feature"}, {"geometry": {"coordinates": [-71.595021, 42.395459], "type": "Point"}, "properties": {"City": "Hudson", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.395459, "Longitude": -71.595021, "State": "MA", "Station Name": "The Shops at Highland Commons - Tesla Supercharger", "Street Address": "2 Highland Common East", "ZIP": 1749}, "type": "Feature"}, {"geometry": {"coordinates": [-69.989771, 41.916958], "type": "Point"}, "properties": {"City": "Wellfleet", "Country": "US", "EV Pricing": "Free", "Latitude": 41.916958, "Longitude": -69.989771, "State": "MA", "Station Name": "PB Boulangerie Bistro - Tesla Destination", "Street Address": "15 Lecount Hollow Rd", "ZIP": 2663}, "type": "Feature"}, {"geometry": {"coordinates": [-71.09933, 42.344903], "type": "Point"}, "properties": {"City": "Boston", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.344903, "Longitude": -71.09933, "State": "MA", "Station Name": "Van Ness Garage - Tesla Supercharger", "Street Address": "1341 Boylston Street", "ZIP": 2215}, "type": "Feature"}, {"geometry": {"coordinates": [-71.022012, 42.223016], "type": "Point"}, "properties": {"City": "Braintree", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.223016, "Longitude": -71.022012, "State": "MA", "Station Name": "South Shore Plaza - Tesla Supercharger", "Street Address": "250 Granite Street", "ZIP": 2184}, "type": "Feature"}, {"geometry": {"coordinates": [-71.032486, 42.516588], "type": "Point"}, "properties": {"City": "Lynnfield", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.516588, "Longitude": -71.032486, "State": "MA", "Station Name": "Market Street - Lynnfield - Tesla Supercharger", "Street Address": "600 Market St", "ZIP": 1940}, "type": "Feature"}, {"geometry": {"coordinates": [-71.054917, 42.360953], "type": "Point"}, "properties": {"City": "Boston", "Country": "US", "EV Pricing": "Free", "Latitude": 42.360953, "Longitude": -71.054917, "State": "MA", "Station Name": "Dock Square Parking Garage - Tesla Destination", "Street Address": "20 Clinton St", "ZIP": 2109}, "type": "Feature"}, {"geometry": {"coordinates": [-72.01826, 42.138891], "type": "Point"}, "properties": {"City": "Charlton", "Country": "US", "EV Pricing": "Free", "Latitude": 42.138891, "Longitude": -72.01826, "State": "MA", "Station Name": "Tree House Brewing Company - Tesla Destination", "Street Address": "129 Sturbridge Rd", "ZIP": 1507}, "type": "Feature"}, {"geometry": {"coordinates": [-71.150799, 42.182894], "type": "Point"}, "properties": {"City": "Canton", "Country": "US", "EV Pricing": "Free", "Latitude": 42.182894, "Longitude": -71.150799, "State": "MA", "Station Name": "Trillium Brewing Company - Tesla Destination", "Street Address": "50 Hudson Rd", "ZIP": 2021}, "type": "Feature"}, {"geometry": {"coordinates": [-70.744046, 41.774457], "type": "Point"}, "properties": {"City": "Wareham", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 41.774457, "Longitude": -70.744046, "State": "MA", "Station Name": "Wareham Crossing - Tesla Supercharger", "Street Address": "2421 Cranberry HIghway", "ZIP": 2571}, "type": "Feature"}, {"geometry": {"coordinates": [-69.985964, 41.796653], "type": "Point"}, "properties": {"City": "Orleans", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 41.796653, "Longitude": -69.985964, "State": "MA", "Station Name": "Cranberry Cove Plaza - Tesla Supercharger", "Street Address": "2110 Cranberry Highway", "ZIP": 2653}, "type": "Feature"}, {"geometry": {"coordinates": [-71.172424, 42.321989], "type": "Point"}, "properties": {"City": "Chestnut Hill", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.321989, "Longitude": -71.172424, "State": "MA", "Station Name": "The Street Chestnut Hill - Tesla Supercharger", "Street Address": "55 Boylston Street", "ZIP": 2467}, "type": "Feature"}, {"geometry": {"coordinates": [-71.000222, 42.398457], "type": "Point"}, "properties": {"City": "Revere", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.398457, "Longitude": -71.000222, "State": "MA", "Station Name": "The Shops at Suffolk Downs - Tesla Supercharger", "Street Address": "40 Furlong Drive", "ZIP": 2151}, "type": "Feature"}, {"geometry": {"coordinates": [-70.307105, 41.676617], "type": "Point"}, "properties": {"City": "Hyannis", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 41.676617, "Longitude": -70.307105, "State": "MA", "Station Name": "Stop \u0026 Shop - Tesla Supercharger", "Street Address": "425 Attucks Lane", "ZIP": 2601}, "type": "Feature"}, {"geometry": {"coordinates": [-73.364744, 42.180949], "type": "Point"}, "properties": {"City": "Great Barrington", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.180949, "Longitude": -73.364744, "State": "MA", "Station Name": "Big Y Class Market - Tesla Supercharger", "Street Address": "700 Main Street Route 7", "ZIP": 1230}, "type": "Feature"}, {"geometry": {"coordinates": [-70.662043, 41.92889], "type": "Point"}, "properties": {"City": "Plymouth", "Country": "US", "EV Pricing": "Free", "Latitude": 41.92889, "Longitude": -70.662043, "State": "MA", "Station Name": "King Collision Centers - Tesla Destination", "Street Address": "48 Holman Rd", "ZIP": 2360}, "type": "Feature"}, {"geometry": {"coordinates": [-71.110908, 41.746094], "type": "Point"}, "properties": {"City": "Fall River", "Country": "US", "EV Pricing": "Free", "Latitude": 41.746094, "Longitude": -71.110908, "State": "MA", "Station Name": "Matouk Factory Store - Tesla Destination", "Street Address": "925 Airport Rd", "ZIP": 2720}, "type": "Feature"}, {"geometry": {"coordinates": [-70.604434, 41.907364], "type": "Point"}, "properties": {"City": "Plymouth", "Country": "US", "EV Pricing": "Free", "Latitude": 41.907364, "Longitude": -70.604434, "State": "MA", "Station Name": "Old Sandwich Golf Cub - Tesla Destination", "Street Address": "41 Double Brook Rd", "ZIP": 2360}, "type": "Feature"}, {"geometry": {"coordinates": [-70.620847, 41.554313], "type": "Point"}, "properties": {"City": "Falmouth", "Country": "US", "EV Pricing": "Free", "Latitude": 41.554313, "Longitude": -70.620847, "State": "MA", "Station Name": "The Captains Manor Inn - Tesla Destination", "Street Address": "27 W Main Street", "ZIP": 2540}, "type": "Feature"}, {"geometry": {"coordinates": [-71.062843, 42.353084], "type": "Point"}, "properties": {"City": "Boston", "Country": "US", "EV Pricing": "Free", "Latitude": 42.353084, "Longitude": -71.062843, "State": "MA", "Station Name": "The Ritz-Carlton, Boston - Tesla Destination", "Street Address": "2 Avery St", "ZIP": 2111}, "type": "Feature"}, {"geometry": {"coordinates": [-71.759382, 42.278255], "type": "Point"}, "properties": {"City": "Worcester", "Country": "US", "EV Pricing": "Free", "Latitude": 42.278255, "Longitude": -71.759382, "State": "MA", "Station Name": "University of Massachusetts Medical School - Tesla Destination", "Street Address": "55 N Lake Ave", "ZIP": 1655}, "type": "Feature"}, {"geometry": {"coordinates": [-72.531569, 42.176754], "type": "Point"}, "properties": {"City": "Chicopee", "Country": "US", "EV Pricing": "Free", "Latitude": 42.176754, "Longitude": -72.531569, "State": "MA", "Station Name": "Williams Distributing Company - Tesla Destination", "Street Address": "880 Burnett Road", "ZIP": 1020}, "type": "Feature"}, {"geometry": {"coordinates": [-71.473878, 42.553111], "type": "Point"}, "properties": {"City": "Littleton", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.553111, "Longitude": -71.473878, "State": "MA", "Station Name": "The Point - Tesla Supercharger", "Street Address": "812 Constitution Avenue", "ZIP": 1460}, "type": "Feature"}, {"geometry": {"coordinates": [-71.96292, 42.156766], "type": "Point"}, "properties": {"City": "Charlton", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.156766, "Longitude": -71.96292, "State": "MA", "Station Name": "Charlton Service Plaza Westbound - Tesla Supercharger", "Street Address": "6 Massachusetts Turnpike", "ZIP": 1507}, "type": "Feature"}, {"geometry": {"coordinates": [-72.025739, 42.139213], "type": "Point"}, "properties": {"City": "Charlton", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.139213, "Longitude": -72.025739, "State": "MA", "Station Name": "Charlton Service Plaza Eastbound - Tesla Supercharger", "Street Address": "Mile Marker 80 Eastbound Mass Turnpike", "ZIP": 1507}, "type": "Feature"}, {"geometry": {"coordinates": [-71.257964, 42.439688], "type": "Point"}, "properties": {"City": "Lexington", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.439688, "Longitude": -71.257964, "State": "MA", "Station Name": "Lexington Service Plaza Northbound - Tesla Supercharger", "Street Address": "690 Marrett Road", "ZIP": 2421}, "type": "Feature"}, {"geometry": {"coordinates": [-71.073529, 42.152891], "type": "Point"}, "properties": {"City": "Stoughton", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.152891, "Longitude": -71.073529, "State": "MA", "Station Name": "Target - Tesla Supercharger", "Street Address": "1 Hawes Way", "ZIP": 2072}, "type": "Feature"}, {"geometry": {"coordinates": [-71.137207, 42.518411], "type": "Point"}, "properties": {"City": "Woburn", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.518411, "Longitude": -71.137207, "State": "MA", "Station Name": "Target - Tesla Supercharger", "Street Address": "101 Commerce Way", "ZIP": 1801}, "type": "Feature"}, {"geometry": {"coordinates": [-72.578197, 42.174935], "type": "Point"}, "properties": {"City": "Chicopee", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.174935, "Longitude": -72.578197, "State": "MA", "Station Name": "Big Y World Class Market - Tesla Supercharger", "Street Address": "650 Memorial Drive", "ZIP": 1020}, "type": "Feature"}, {"geometry": {"coordinates": [-71.424898, 42.090421], "type": "Point"}, "properties": {"City": "Franklin", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.090421, "Longitude": -71.424898, "State": "MA", "Station Name": "Franklin Village Plaza - Tesla Supercharger", "Street Address": "250 Franklin Village Drive", "ZIP": 2038}, "type": "Feature"}, {"geometry": {"coordinates": [-71.331034, 41.79915], "type": "Point"}, "properties": {"City": "Seekonk", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 41.79915, "Longitude": -71.331034, "State": "MA", "Station Name": "Neon Marketplace - Tesla Supercharger", "Street Address": "965 Fall River Avenue", "ZIP": 2771}, "type": "Feature"}, {"geometry": {"coordinates": [-71.086001, 42.390584], "type": "Point"}, "properties": {"City": "Somerville", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.390584, "Longitude": -71.086001, "State": "MA", "Station Name": "Stop \u0026 Shop - Tesla Supercharger", "Street Address": "779 McGrath Highway", "ZIP": 2145}, "type": "Feature"}, {"geometry": {"coordinates": [-70.996, 41.640722], "type": "Point"}, "properties": {"City": "Dartmouth", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 41.640722, "Longitude": -70.996, "State": "MA", "Station Name": "Dartmouth Towne Center Shopping Mall - Tesla Supercharger", "Street Address": "83 Faunce Corner Mall Road", "ZIP": 2747}, "type": "Feature"}, {"geometry": {"coordinates": [-70.841694, 42.147722], "type": "Point"}, "properties": {"City": "Hanover", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.147722, "Longitude": -70.841694, "State": "MA", "Station Name": "Hanover Crossing - Tesla Supercharger", "Street Address": "1775 Washington Street", "ZIP": 2359}, "type": "Feature"}, {"geometry": {"coordinates": [-71.216703, 42.483562], "type": "Point"}, "properties": {"City": "Burlington", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.483562, "Longitude": -71.216703, "State": "MA", "Station Name": "Burlington Mall - Tesla Supercharger", "Street Address": "75 Middlesex Turnpike", "ZIP": 1803}, "type": "Feature"}, {"geometry": {"coordinates": [-71.439877, 42.697284], "type": "Point"}, "properties": {"City": "Tyngsborough", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.697284, "Longitude": -71.439877, "State": "MA", "Station Name": "The 440 - Tesla Supercharger", "Street Address": "440 Middlesex Road", "ZIP": 1879}, "type": "Feature"}, {"geometry": {"coordinates": [-72.040779, 42.561167], "type": "Point"}, "properties": {"City": "Templeton", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.561167, "Longitude": -72.0407787, "State": "MA", "Station Name": "Cumberland Farms - Tesla Supercharger", "Street Address": "163 Patriots Rd", "ZIP": 1468}, "type": "Feature"}, {"geometry": {"coordinates": [-70.654457, 42.623414], "type": "Point"}, "properties": {"City": "Gloucester", "Country": "US", "EV Pricing": "$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW", "Latitude": 42.623414, "Longitude": -70.654457, "State": "MA", "Station Name": "Gloucester Crossing - Tesla Supercharger", "Street Address": "231 Gloucester Crossing Road", "ZIP": 1930}, "type": "Feature"}, {"geometry": {"coordinates": [-73.277352, 42.377028], "type": "Point"}, "properties": {"City": "Lenox", "Country": "US", "EV Pricing": null, "Latitude": 42.377028, "Longitude": -73.277352, "State": "MA", "Station Name": "Chocolate Springs Caf\u00c3\u00a9 - Tesla Supercharger", "Street Address": "55 Pittsfield Rd", "ZIP": 1240}, "type": "Feature"}], "name": "tesla-superchargers-ma2", "type": "FeatureCollection"});
+
+        
+</script>
+</html>
